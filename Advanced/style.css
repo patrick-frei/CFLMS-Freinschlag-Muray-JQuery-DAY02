@@ -1,0 +1,23 @@
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.row_top{
+	display: flex;
+	justify-content: space-evenly;
+	width: 80vw;
+	margin: 5vh auto;
+}
+
+.row_down{
+	display: flex;
+	justify-content: space-evenly;
+	width: 80vw;
+	margin: auto;
+}
+.cardPlace{
+	width: 5vw;
+	height: 7vw;
+	border: 1px solid black;
+
+}
