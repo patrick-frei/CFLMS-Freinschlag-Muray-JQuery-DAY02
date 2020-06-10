@@ -1,0 +1,30 @@
+var simpsons =`[{
+	"name" : "Maggie Simpson",
+	"imgsrc" : "img/Maggie.png",
+	"relation" : "Main Character"
+},{
+	"name" : "Marge Simpson",
+	"imgsrc" : "img/Marge.png",
+	"relation" : "Parent"
+},{
+	"name" : "Lisa Simpson",
+	"imgsrc" : "img/Lisa.png",
+	"relation" : "Sibling"
+},{
+	"name" : "Bart Simpson",
+	"imgsrc" : "img/Bart.png",
+	"relation" : "Sibling"
+},{
+	"name" : "Homer Simpson",
+	"imgsrc" : "img/Homer.png",
+	"relation" : "Parent"
+},{
+	"name" : "Abe Simpson",
+	"imgsrc" : "img/Abe.png",
+	"relation" : "Other"
+},{
+	"name" : "Santa's Little Helper",
+	"imgsrc" : "img/Santas.png",
+	"relation" : "Other"
+}]`
+
