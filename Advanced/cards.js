@@ -16,6 +16,27 @@ let cards = [{
 },{
 	"name": "7C",
 	"img": "https://upload.wikimedia.org/wikipedia/commons/6/68/7C.svg"
+},{
+	"name": "8C",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/9/94/8C.svg"
+},{
+	"name": "9C",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/63/9C.svg"
+},{
+	"name": "10C",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/c/c7/10C.svg"
+},{
+	"name": "JC",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/1/11/JC.svg"
+},{
+	"name": "QC",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/9/9e/QC.svg"
+},{
+	"name": "KC",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/e/e1/KC.svg"
+},{
+	"name": "AC",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/AC.svg"
 }]
 
 function getCardImg(name) {
