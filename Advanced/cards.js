@@ -37,6 +37,123 @@ let cards = [{
 },{
 	"name": "AC",
 	"img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/AC.svg"
+},{
+	"name": "2D",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/69/2C.svg"
+},{
+	"name": "3D",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/7/70/3C.svg"
+},{
+	"name": "4D",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/2/25/4C.svg"
+},{
+	"name": "5D",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/5C.svg"
+},{
+	"name": "6D",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/62/6C.svg"
+},{
+	"name": "7D",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/68/7C.svg"
+},{
+	"name": "8D",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/9/94/8C.svg"
+},{
+	"name": "9D",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/63/9C.svg"
+},{
+	"name": "10D",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/c/c7/10C.svg"
+},{
+	"name": "JD",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/1/11/JC.svg"
+},{
+	"name": "QD",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/9/9e/QC.svg"
+},{
+	"name": "KD",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/e/e1/KC.svg"
+},{
+	"name": "AD",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/AC.svg"
+},{
+	"name": "2H",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/69/2C.svg"
+},{
+	"name": "3H",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/7/70/3C.svg"
+},{
+	"name": "4H",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/2/25/4C.svg"
+},{
+	"name": "5H",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/5C.svg"
+},{
+	"name": "6H",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/62/6C.svg"
+},{
+	"name": "7H",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/68/7C.svg"
+},{
+	"name": "8H",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/9/94/8C.svg"
+},{
+	"name": "9H",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/63/9C.svg"
+},{
+	"name": "10H",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/c/c7/10C.svg"
+},{
+	"name": "JH",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/1/11/JC.svg"
+},{
+	"name": "QH",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/9/9e/QC.svg"
+},{
+	"name": "KH",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/e/e1/KC.svg"
+},{
+	"name": "AH",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/AC.svg"
+},{
+	"name": "2S",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/69/2C.svg"
+},{
+	"name": "3S",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/7/70/3C.svg"
+},{
+	"name": "4S",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/2/25/4C.svg"
+},{
+	"name": "5S",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/5C.svg"
+},{
+	"name": "6S",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/62/6C.svg"
+},{
+	"name": "7S",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/68/7C.svg"
+},{
+	"name": "8S",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/9/94/8C.svg"
+},{
+	"name": "9S",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/6/63/9C.svg"
+},{
+	"name": "10S",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/c/c7/10C.svg"
+},{
+	"name": "JS",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/1/11/JC.svg"
+},{
+	"name": "QS",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/9/9e/QC.svg"
+},{
+	"name": "KS",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/e/e1/KC.svg"
+},{
+	"name": "AS",
+	"img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/AC.svg"
 }]
 
 function getCardImg(name) {
