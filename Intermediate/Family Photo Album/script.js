@@ -1,11 +1,14 @@
 var simpson = JSON.parse(simpsons)
-console.log(simpson)
+//console.log(simpson)
 
 $(document).ready(function(){
 
 	// Creates and adds container for all characters
 	var bigbox = $("<div></div>").addClass("bigbox")
 	$("body").prepend(bigbox)
+	$("body").prepend("<p>Double click on the small boxes to remove a family member</p>")
+	$("body").prepend("<p>Single click on the small boxes to show the family member's hobbies</p>")
+	$("body").prepend("<h3>Welcome to the Simpsons</h3>")
 
 	for (i = 0; i < simpson.length; i++){
 
@@ -38,9 +41,29 @@ $(document).ready(function(){
 		}
 	}
 
+	$(".smallbox").on("dblclick", function() {
+		$(this).hide()
+	})
+
+	$(".smallbox").on("click", function() {
+		let element = this
+		$(simpson).each(function(i) {
+			if (simpson[i].name == $(element).children("h1").html()) {
+				console.log($(element))
+				if ($(element).children("img").length) {
+					$(element).children("img").replaceWith(`<div><p>Hobbies:</p><ul><li>${simpson[i].hobbies.join("</li><li>")}</li></ul></div>`)
+					$("ul").css("text-align", "left")
+				} else {
+					$(element).children("div").replaceWith(`<img src="${simpson[i].imgsrc}" style="height: 25vw;">`)
+				}
+			}
+		})
+	})
+
 	// Change styles of containers
+	$("body").css({"text-align": "center", "font-family": "'comic sans ms', sans-serif"})
 	$(".bigbox").css({"display":"flex", "flex-wrap": "wrap", "justify-content": "space-around", "width" : "100%", "background-color": "grey"})
-	$(".smallbox").css({"width": "30%", "background-color":"lightgrey", "display":"flex", "justify-content":"center", "flex-direction":"column", "align-items":"center", "margin":"2% 0", "border-radius": "4vw", "box-shadow":"0.3vw 0.3vw 0.3vw 0.3vw"})
+	$(".smallbox").css({"width": "30%", "cursor": "pointer", "background-color":"lightgrey", "display":"flex", "justify-content":"center", "flex-direction":"column", "align-items":"center", "margin":"2% 0", "border-radius": "4vw", "box-shadow":"0.3vw 0.3vw 0.3vw 0.3vw"})
 	$("img").css("height", "25vw")
 	$("p").css({"font-size": "2.2vw", "padding" : "3%"})
 
