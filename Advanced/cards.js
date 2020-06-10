@@ -149,11 +149,11 @@ let cards = [{
 },{
 	"name": "KH",
 	"id": 51,
-	"img": "https://upload.wikimedia.org/wikipedia/commons/8/87/AH.svg"
+	"img": "https://upload.wikimedia.org/wikipedia/commons/e/e5/KH.svg"
 },{
 	"name": "AH",
 	"id": 52,
-	"img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/AC.svg"
+	"img": "https://upload.wikimedia.org/wikipedia/commons/8/87/AH.svg"
 },{
 	"name": "2S",
 	"id": 60,

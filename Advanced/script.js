@@ -10,14 +10,14 @@ $(document).ready(function() {
 				do {
 					index = Math.floor(Math.random() * cards.length);
 					id = cards[index].id;
+					src = cards[index].img
 				} while (playedCards.includes(id) || cardSuggests.includes(id));
 				cardSuggests.push(id);
 				$(this).append("<img>");
 				$(this).children("img").attr({
 					id: id,
-					index: index,
 					class: "draggable",
-					src: cards[index].img
+					src: src
 				});
 				$(this).children("img").addClass("draggable");
 			}
